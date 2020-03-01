@@ -7,13 +7,16 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="button" onclick="button()">add number</button>
+    <text id="tekst"></text>
     <script>
-        var crypt = ['w','v','u','t','s','r','q','p','o','n','m'];
+        function button() {
+        var crypt = ['w','v','u','t','s','r','q','p','o','n','m','l','j','i','h','g','f','e','d','b','a','z','y','x'];
         var input = (prompt("Cijfers?"));
-        for (i in input.length > 2, i++){
-            var input1 = parseInt(input)
+            var input1 = parseInt(input);
             var inputnummer = input1 - 1;
-            document.write(crypt[inputnummer]);
+        document.getElementById("tekst").(crypt[inputnummer]);
+            
         }
     
     </script>
